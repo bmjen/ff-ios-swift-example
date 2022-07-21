@@ -9,8 +9,11 @@ This application will demonstrate the following:
 
 
 ##### Requirements
-[Xcode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) installed
-Pod(`gem install cocoapods`)
+- [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) installed
+- Cocoapods
+```shell
+gem install cocoapods
+```
 
 
 ##### Setup Instructions
@@ -25,7 +28,11 @@ For more information, refer to the [Getting Started Guide](https://docs.harness.
 
 
 ##### Build instructions
-1. Open `ff-ios-sample.xcworkspace` in Xcode
-2. Copy the feature flag key from your Harness Feature Flags Environment and set `apiKey` in `ViewController.swift`
-3. Run your application through Xcode.
+1. Install dependencies via Cocoapods
+```shell
+pod install
+```
+2. Open `ff-ios-sample.xcworkspace` in Xcode
+3. Copy the feature flag key from your Harness Feature Flags Environment and set `apiKey` in `FeatureFlagsHelper.swift`
+4. Run your application through Xcode.
 
