@@ -1,0 +1,6 @@
+framework module ff_ios_client_sdk {
+  umbrella header "ff-ios-client-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

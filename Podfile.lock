@@ -1,0 +1,16 @@
+PODS:
+  - ff-ios-client-sdk (1.0.2)
+
+DEPENDENCIES:
+  - ff-ios-client-sdk
+
+SPEC REPOS:
+  trunk:
+    - ff-ios-client-sdk
+
+SPEC CHECKSUMS:
+  ff-ios-client-sdk: d5211d5d85485e67fa32e51dd09931998c04c6b9
+
+PODFILE CHECKSUM: 3cf98d60c0f120401d24938de8abb145cd5096b8
+
+COCOAPODS: 1.11.3
